@@ -211,9 +211,7 @@ struct omap_volt_data omap446x_vdd_iva_volt_data[] = {
 	VOLT_DATA_DEFINE(0, 0, 0, 0, 0, 0),
 };
 
-//#define OMAP4460_VDD_CORE_OPP50_UV               880000 // TNP
 #define OMAP4460_VDD_CORE_OPP50_UV               900000 // TNP-SOURCERY
-//#define OMAP4460_VDD_CORE_OPP100_UV              960000 // 1344
 #define OMAP4460_VDD_CORE_OPP100_UV              980000 // 1344-SOURCERY
 
 //#define OMAP4460_VDD_CORE_OPP100_OV_UV                1030000 // 1344 - 307 -z3 test
