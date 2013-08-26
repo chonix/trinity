@@ -284,7 +284,7 @@ static struct omap_opp_def __initdata omap446x_opp_def_list[] = {
         OPP_INITIALIZER("mpu", "virt_dpll_mpu_ck", "mpu", true,  691200000, OMAP4460_VDD_MPU_OPP100_UV),
         OPP_INITIALIZER("mpu", "virt_dpll_mpu_ck", "mpu", true, 1036800000, OMAP4460_VDD_MPU_OPPTURBO_UV),
         OPP_INITIALIZER("mpu", "virt_dpll_mpu_ck", "mpu", true, 1190400000, OMAP4460_VDD_MPU_OPPNITRO_UV),
-      OPP_INITIALIZER("mpu", "virt_dpll_mpu_ck", "mpu", true, 1344000000, OMAP4460_VDD_MPU_OPPNITRO_UV),
+//      OPP_INITIALIZER("mpu", "virt_dpll_mpu_ck", "mpu", true, 1344000000, OMAP4460_VDD_MPU_OPPNITRO_UV),
 
         /* MPU OPP4 - OPP-Nitro SpeedBin */
 	OPP_INITIALIZER("mpu", "virt_dpll_mpu_ck", "mpu", true, 1344000000, OMAP4460_VDD_MPU_OPPOC_UV),
